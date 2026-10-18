@@ -16,6 +16,7 @@
     inet 192.168.1.14/24 brd 192.168.1.255 scope global dynamic noprefixroute enp0s3
        valid_lft 86120sec preferred_lft 86120sec
 ```
+<img width="875" height="578" alt="Screenshot 2026-10-18 204550" src="https://github.com/user-attachments/assets/7c79d8b1-0d6d-404b-9833-ae5ffc89253d" />
 
 ### Аналіз даних
 
@@ -44,6 +45,7 @@ default via 192.168.1.1 dev enp0s3 proto dhcp src 192.168.1.14 metric 100
 172.18.0.0/16 dev br-ec45c2f2f129 proto kernel scope link src 172.18.0.1 
 192.168.1.0/24 dev enp0s3 proto kernel scope link src 192.168.1.14 metric 100
 ```
+<img width="786" height="133" alt="Screenshot 2026-10-18 205656" src="https://github.com/user-attachments/assets/3a59a773-0529-44a8-911e-148d53c488ae" />
 
 ### Аналіз
 
@@ -63,6 +65,7 @@ default via 192.168.1.1 dev enp0s3 proto dhcp src 192.168.1.14 metric 100
 **Виконана команда:** `curl ifconfig.io`
 
 **Результат:** отримано публічну IP-адресу (приховано з міркувань безпеки: `x.x.x.x`).
+<img width="469" height="47" alt="5958737803300507709" src="https://github.com/user-attachments/assets/a31d2cb5-2600-4ecb-8f89-486f066aec32" />
 
 ### Порівняння локальної та публічної адрес
 
